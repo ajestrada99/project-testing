@@ -13,6 +13,7 @@ useEffect(() => {
   if(!router.isReady){ 
     return;
    }
+   setBeer([,,])
 }, [router.query, router.isReady])
 
   if(!beer.length){ 
