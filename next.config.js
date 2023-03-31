@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // reactStrictMode: true,
-  // experimental: {
-  //   appDir: false
-  // },
+   experimental: {
+     appDir: true
+   },
   // trailingSlash: true,
   // productionBrowserSourceMaps: true,
   images: {
